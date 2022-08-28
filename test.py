@@ -110,14 +110,14 @@ def licensi():#line:42
 """)#line:49
     OOO00O0OOO00OO00O =input (f"{H}[{P}?{H}]{P} ===> Pilih :{K} ")#line:50
     if OOO00O0OOO00OO00O in ['1','01']:#line:51
-      print (f"{H}[{P}!{H}]{P} Anda Akan Diarahkan Ke Whatsapp...");time .sleep (3 );os .system ('xdg-open https://wa.me/6283878083448?text=Bang+Beli+Lisensi+nya+dong.......???????');exit ()#line:52
+      print (f"{H}[{P}!{H}]{P} Anda Akan Diarahkan Ke Whatsapp...");time .sleep (3 );os .system ('xdg-open https://wa.me/6285222111333?text=Bang+Beli+Lisensi+nya+dong.......???????');exit ()#line:52
     elif OOO00O0OOO00OO00O in ['2','02']:#line:53
       O000O000OOO000OOO =input (f"{H}[{P}?{H}]{P} Api Key :{K} ")#line:54
       if len (O000O000OOO000OOO )==0 :#line:55
         exit (f"{P}[{M}!{P}]{M} Jangan Kosong Tolol")#line:56
       else :#line:57
         with requests .Session ()as O0O0OO0O0O00OOOO0 :#line:58   #### ISI TOKEN LU DAN   ID LU
-          OOO00OO00O0O0OOOO =O0O0OO0O0O00OOOO0 .get(f'https://app.cryptolens.io/api/key/activate?token=WyIyNDM4OTQ4NiIsIk8xbkF5cU5Lc09halVBczNxVGVVNXZ0YlRNejFDTXp1MG1vbm9GQVoiXQ==&ProductId=16542&Key={O000O000OOO000OOO}&Sign=True').json ()['licenseKey']#line:59
+          OOO00OO00O0O0OOOO =O0O0OO0O0O00OOOO0 .get(f'https://app.cryptolens.io/api/key/activate?token=WyIyNDM5MDYxMyIsInBxR2hETThFcy80Tk9DVUE3WmpJMHpzZ2l2N0xuQkUvdkVUZTVVREsiXQ==&ProductId=16542&Key={O000O000OOO000OOO}&Sign=True').json ()['licenseKey']#line:59
           open ('apikey.txt','w').write (O000O000OOO000OOO )#line:60
           print (f"{H}[{P}*{H}]{P} Expired :{K} {OOO00OO00O0O0OOOO['expires'].split('T')[0]}");time .sleep (2 );login()#line:61
     elif OOO00O0OOO00OO00O in ['3','03']:#line:62
